@@ -1,0 +1,50 @@
+<div class="toolbar" role="banner">
+  <a href="https://www.youtube.com/watch?v=kmSZW6f0s_Y" target="_blank">
+    <img
+      id="toolbarimg"
+      width="130"
+      alt="Grand Duchy Logo"
+      src="../assets/images/gdol.png"
+    />
+  </a>
+  <span class="gdol">Grand Duchy of Lithuania</span>
+</div>
+
+<div class="full-screen" role="background">
+  <img class="full-screen-img" src="../assets/images/websitebackrgound.jpg" />
+</div>
+
+<nav class="navigation">
+  <button
+    class="navbuttons"
+    routerLink="/content-column"
+    routerLinkActive="active"
+    ariaCurrentWhenActive="page"
+    mat-raised-button
+    color="warn"
+  >
+    Home
+  </button>
+  <button
+    class="navbuttons"
+    routerLink="/introduction"
+    routerLinkActive="active"
+    ariaCurrentWhenActive="page"
+    mat-raised-button
+    color="warn"
+  >
+    Introduction
+  </button>
+  <button
+    class="navbuttons"
+    routerLink="/gallery"
+    routerLinkActive="active"
+    ariaCurrentWhenActive="page"
+    mat-raised-button
+    color="warn"
+  >
+    Gallery
+  </button>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>

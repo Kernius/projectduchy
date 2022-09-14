@@ -1,0 +1,87 @@
+.tile {
+  background: rgba(1, 1, 1, 0.17);
+  border-radius: 2vw;
+}
+
+.middle {
+  top: 11vw;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.dukepic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 5vw;
+  height: 5vw;
+  transition: 0.8s;
+}
+
+.dukepic:hover {
+  opacity: 0.5;
+}
+
+.duketext {
+  top: 1vw;
+  left: 6vw;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  font-weight: 500;
+  font-style: fantasy;
+  font-size: 0.6vw;
+  color: white;
+}
+
+/*Below left mat grid starts*/
+
+.left {
+  top: 6vw;
+  left: 0;
+  right: 90vw;
+  bottom: 0;
+  position: absolute;
+  margin: 0 auto;
+  width: 15vw;
+}
+
+.left-buttons {
+  margin-top: 1vw;
+  width: 20vw;
+  transition: background-color 0.7s;
+  background-color: rgb(75, 26, 26);
+}
+
+.left-buttons:hover {
+  background-color: rgb(225, 162, 91);
+}
+
+/* below right mat grid starts*/
+
+.right {
+  top: 6vw;
+  left: 85vw;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin: 0 auto;
+  width: 15vw;
+}
+
+.right-buttons {
+  margin-top: 1vw;
+  width: 20vw;
+  transition: background-color 0.7s;
+  background-color: rgb(75, 26, 26);
+}
+
+.right-buttons:hover {
+  background-color: rgb(225, 162, 91);
+}

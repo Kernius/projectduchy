@@ -1,0 +1,18 @@
+.photos {
+  top: 11vw;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.gallerytile {
+  background: rgba(223, 221, 216, 0.09);
+  border-radius: 2vw;
+}
+
+.gallerypic {
+  width: 20vw;
+}
